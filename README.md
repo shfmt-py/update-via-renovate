@@ -1,6 +1,6 @@
 # Demo on how to get _Renovate_ to update `shfmt-py`.
 
-For the moment we need to set the versioning to e.g. 'loose' to allow using 4 digits semver. 
+For the moment we need to set the versioning to e.g. 'loose' to allow using 4 digits semver.
 
 Working example:
 
