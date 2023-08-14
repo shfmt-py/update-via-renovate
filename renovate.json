@@ -1,6 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
+  "extends": ["github>whitesource/merge-confidence:beta", "config:base"],
+
+  "pre-commit": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["maxwinterstein/shfmt-py"],
+      "versioning": "loose"
+    }
   ]
 }
