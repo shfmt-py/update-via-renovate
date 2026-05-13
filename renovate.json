@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>whitesource/merge-confidence:beta", "config:base"],
+  "extends": ["mergeConfidence:all-badges", "config:recommended"],
 
   "pre-commit": {
     "enabled": true
